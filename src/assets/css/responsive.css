@@ -1,0 +1,317 @@
+      /*******************************
+   	All Responsive Code
+   *******************************/
+
+   @media (min-width: 2401px) {
+	.banner {
+		background-position: bottom center;
+	}
+}
+
+@media (max-width: 2400px) {
+	.banner {
+		background-position: bottom center;
+	}
+}
+
+@media (max-width: 1920px) {
+	.banner {
+		background-position: top center;
+	}
+}
+
+
+@media (max-width: 1750px) {
+	.banner .bg-shap .city-man {
+		width: 55%;
+	}
+}
+
+@media (max-width: 1399px) {
+
+	.banner {
+		padding: 220px 0px 180px;
+	}
+
+	.portfolio:before {
+		width: 95%;
+	}
+
+}
+
+@media (max-width: 1199px) {
+
+	#scrollUp {
+		right: 0%;
+	}
+
+	.mein-menu .navbar #navbarNavDropdown ul.navbar-nav li.nav-item {
+		margin-left: 20px;
+	}
+
+	#scrollUp {
+		display: none !important;
+		opacity: 0;
+		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	}
+
+	.footer .footer-box h4.lasthead {
+		padding-bottom: 0px;
+		padding-top: 30px;
+	}
+
+	.price .box {
+		margin-top: 30px;
+	}
+
+	.price .item-box.popular:before {
+		top: 0px;
+		height: 100%;
+	}
+
+	.price .box .item-box.popular {
+		padding: 80px 30px 40px;
+	}
+
+	.price .item-box.popular .pop {
+		top: 0px;
+	}
+
+	.footer {
+		padding: 150px 0px 0px;
+	}
+
+	.banner .bg-shap .city-man {
+		display: none;
+	}
+}
+
+
+@media (max-width: 991px) {
+
+	.mein-menu {
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		background-color: #66cc33;
+		box-shadow: 2.3px 21.879px 38px 0px rgb(102 204 51 / 26%);
+		z-index: 99999;
+		padding: 10px 0 10px;
+	}
+
+	.mein-menu .navbar .navbar-toggler:focus {
+		box-shadow: 0;
+	}
+
+	.mein-menu .navbar #navbarNavDropdown ul.navbar-nav {
+		height: 350px;
+		overflow: auto;
+	}
+
+	.mein-menu .navbar #navbarNavDropdown ul.navbar-nav {
+		margin-left: auto;
+		-webkit-box-align: start;
+		-ms-flex-align: start;
+		-ms-grid-row-align: flex-start;
+		align-items: flex-start;
+	}
+
+	.mein-menu .navbar #navbarNavDropdown ul.navbar-nav li.nav-item {
+		margin-left: 0;
+		margin-top: 10px;
+	}
+
+	.mein-menu .navbar #navbarNavDropdown ul.navbar-nav li.nav-item a.nav-link:before {
+		top: calc(100% + 0px);
+	}
+
+	.mein-menu .navbar #navbarNavDropdown ul.navbar-nav li.nav-item a.nav-link,
+	.mein-menu .navbar #navbarNavDropdown ul.navbar-nav li.nav-item .language-select .nice-select {
+		color: #ffffff;
+	}
+
+	.mein-menu .navbar #navbarNavDropdown ul.navbar-nav li.nav-item .language-select .nice-select:after {
+		border-bottom: 2px solid #ffffff;
+		border-right: 2px solid #ffffff;
+	}
+
+	.mein-menu .navbar #navbarNavDropdown ul.navbar-nav li.nav-item a.nav-link:before {
+		background: #ffffff;
+	}
+
+	.mein-menu .navbar #navbarNavDropdown ul.navbar-nav li.nav-item .nav-link.button {
+		border: 1px solid #fff;
+	}
+
+	h1.head {
+		font-size: 50px;
+		line-height: 60px;
+	}
+
+	.counter .page-counter .counter-item h2.fifty,
+	.counter .page-counter .counter-item h2.fifty span,
+	h2.title {
+		font-size: 42px;
+		line-height: 52px;
+	}
+
+	.footer .footer-box .footer-link {
+		margin: 20px 0px 20px;
+	}
+
+
+	.testomonial .testo-box .single:before {
+		width: 100%;
+	}
+
+	.testomonial .testo-box .single {
+		padding: 30px 30px 35px 30px;
+	}
+
+	.testomonial .testo-box .single .total-content .thumb .icon img {
+		width: 35%;
+	}
+
+	.open-account .open-img {
+		height: 100%;
+	}
+
+	.open-account .account-box {
+		box-shadow: 0px 5px 49px 0px rgb(51 42 147 / 0%);
+	}
+
+	.open-account {
+		padding: 120px 0px 120px;
+	}
+
+	.partner {
+		padding: 120px 0 60px;
+	}
+
+	.testomonial {
+		padding: 60px 0px 120px;
+	}
+
+	.footer .footer-bottom {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: reverse;
+			-ms-flex-direction: column-reverse;
+				flex-direction: column-reverse;
+	}
+
+	.footer .footer-bottom .social-style {
+		padding-bottom: 20px;
+	}
+
+	.open-account .account-box {
+		padding: 40px 40px 40px;
+	}
+	.logo {
+		width: 180px;
+	}
+	.banner {padding: 120px 0px 180px;}
+}
+
+@media (max-width: 767px) {
+	.portfolio:before {
+		width: 100%;
+		height: 100%;
+		border-radius: 0px;
+	}
+
+	.portfolio {
+		padding: 120px 0px 120px;
+	}
+
+	.price {
+		padding:90px 0px 70px;
+	}
+	.logo {
+		width: 160px;
+	}
+	.banner .hero-area .banner-content .form-group input {font-size: 16px; height: 55px;}
+	.banner .hero-area .banner-content .form-group input::-webkit-input-placeholder {font-size: 16px;}
+	.banner .hero-area .banner-content .form-group input::-moz-placeholder {font-size: 16px;}
+	.banner .hero-area .banner-content .form-group input:-ms-input-placeholder {font-size: 16px;}
+	.banner .hero-area .banner-content .form-group input:-moz-placeholder {font-size: 16px;}
+	.feature {padding: 40px 0px 50px;}
+	.counter {padding: 60px 0px 40px;}
+	.portfolio {padding: 60px 0px 60px;}
+}
+
+@media (max-width: 575px) {
+   .testomonial .testo-box .single .content { 
+	   padding: 30px 30px 30px;
+   }
+   .testomonial .testo-box .owl-nav .owl-prev, .testomonial .testo-box .owl-nav .owl-next {
+	   width: 40px;
+	   height: 40px;
+	   line-height: 40px; 
+   }
+   .footer {
+		margin-top: 0px;  
+	   padding: 280px 0px 0px; 
+	   background-position: bottom 0px left 0px; 
+   }
+   .partner {
+	   padding: 120px 0 0px;
+   }
+   .footer .footer-box .footer-link {
+	   margin: 0px 0px 0px;
+   }
+   .feature .list .list-item { 
+	   width: 100%;
+   }
+   .testomonial .testo-box .single .content p.text {
+	   font-size: 16px;
+	   line-height: 28px; 
+   }
+   .testomonial .testo-box .single .total-content .thumb .icon img {
+	   width: 40%;
+   }
+   .testomonial .testo-box .single .content h3.subtitle {font-size: 24px;}
+   .open-account .account-box p {width: 100%;}
+   .open-account .account-box .thrty-six {font-size: 30px; line-height: 38px;}
+}
+
+@media (max-width: 414px) { 
+   h1.head {
+	   font-size: 46px;
+	   line-height: 56px;
+   }
+
+   .counter .page-counter .counter-item h2.fifty,
+   .counter .page-counter .counter-item h2.fifty span,
+   h2.title {
+	   font-size: 36px;
+	   line-height: 46px;
+   }
+
+   .banner .hero-area .banner-content .form-group button.button-1 {
+	   position: relative;
+	   top: unset;
+	   right: unset; 
+	   margin-top: 20px;
+   }
+   .banner .hero-area .banner-content .form-group { 
+	   width: 100%;
+   }
+   .banner .hero-area .banner-content .form-group input { 
+	   padding: 0px 30px 0px 30px; 
+	   margin-bottom: 0 !important;
+   }
+   .open-account .account-box .form-group {
+	   padding: 27px 0px 30px;
+   }
+   .open-account .account-box {
+	   padding: 30px 30px 30px;
+   }
+}
+
+@media (max-width: 360px) {
+   .testomonial .testo-box .single,
+   .testomonial .testo-box .single .content {
+	   padding: 20px 20px 20px;
+   }
+}

@@ -1,0 +1,23 @@
+/* full-width.css */
+
+/* Apply full width to all elements */
+body, html {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+/* Ensure all direct children of body fill the width */
+body > * {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Optionally, you can target specific elements */
+.container {
+    width: 100%;
+    max-width: 100%;
+    padding: 0 20px; /* Adjust padding as needed */
+    margin: 0 auto; /* Center the container */
+}
